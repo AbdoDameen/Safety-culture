@@ -40,7 +40,7 @@ By addressing these observations, the module can be more efficient and productio
 
 ### Pagination Implementation Explanation:
 
-In the updated GetAllFolders function, we've added two crucial parameters: 'limit' and 'offset'. These parameters are key to managing large datasets by breaking them down into manageable chunks. The 'limit' parameter specifies how many records to return in one go, while 'offset' determines where in the dataset to start returning records from.
+In the updated GetAllFolders function, I've added two crucial parameters: 'limit' and 'offset'. These parameters are key to managing large datasets by breaking them down into manageable chunks. The 'limit' parameter specifies how many records to return in one go, while 'offset' determines where in the dataset to start returning records from.
 
 Implementing pagination is essential for enhancing performance and user experience. It efficiently limits the data transferred over the network, reducing server load and leading to faster responses. Using 'offset' and 'limit' is a common practice as it's intuitive and scales well with large amounts of data.
 
