@@ -34,9 +34,10 @@ The `folders.go` module is designed to manage and retrieve folder data for diffe
 - If this module is meant for a production environment, `FetchAllFoldersByOrgID` should be modified to retrieve data from an actual database or live data source instead of static sample data.
 
 ---
-
 By addressing these observations, the module can be more efficient and production-ready.
 ---
+
+# Pagination
 
 ### Pagination Implementation Explanation:
 
